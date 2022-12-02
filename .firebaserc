@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "esempiocustomer": {
+      "hosting": {
+        "esempio_project": [
+          "esempiocustomer"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "esempiocustomer"
+  }
+}
