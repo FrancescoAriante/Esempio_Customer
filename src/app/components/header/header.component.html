@@ -1,0 +1,21 @@
+<div style="height: inherit">
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div class="col-2" style="height: 100%; display: flex;align-items: center">
+        <button mat-button style="background-color: var(--background-blue);border: none;" (click)="opened = !opened"><mat-icon style="color: #fff; font-size: 24px;">menu</mat-icon></button>
+      </div>
+      <div class="col-8">
+      </div>
+      <div class="col-2" style="height: 100%; display: flex; justify-content: end; align-items: center;">
+        <span style="margin-top: 15px;margin-right: 10px;"><mat-icon>login</mat-icon></span>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+    <mat-sidenav-container>
+        <mat-sidenav [(opened)]="opened" mode="side">
+          <!-- Inserire Mat List  -->
+        </mat-sidenav>
+    </mat-sidenav-container>
+
+</div>
