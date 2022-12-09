@@ -1,21 +1,16 @@
-<div style="height: inherit">
-  <mat-toolbar>
-    <mat-toolbar-row>
-      <div class="col-2" style="height: 100%; display: flex;align-items: center">
-        <button mat-button style="background-color: var(--background-blue);border: none;" (click)="opened = !opened"><mat-icon style="color: #fff; font-size: 24px;">menu</mat-icon></button>
-      </div>
-      <div class="col-8">
-      </div>
-      <div class="col-2" style="height: 100%; display: flex; justify-content: end; align-items: center;">
-        <span style="margin-top: 15px;margin-right: 10px;"><mat-icon>login</mat-icon></span>
-      </div>
-    </mat-toolbar-row>
-  </mat-toolbar>
-
-    <mat-sidenav-container>
-        <mat-sidenav [(opened)]="opened" mode="side">
-          <!-- Inserire Mat List  -->
-        </mat-sidenav>
-    </mat-sidenav-container>
-
+<div class="row col-12" style="height: inherit; background-color: var(--background-blue); display: flex; justify-content: space-around;margin: 0px;">
+  <div class="row col-3 justify-content-center align-items-center">
+    <div class="col-2"><img src="../../../assets/logo.png" alt="logo" style="width: 100%;"></div>
+    <div class="col-10">
+      <span style="color: #fff;font-size: 1.5em;">Customer Management</span>
+    </div>
+  </div>
+  <div class="row col-5 justify-content-center align-items-center">
+    <div class="col-3 btn-header-element"><button type="button" class="btn btn-outline-light" style="width: 100%; border-color: var(--background-blue);">Customers</button></div>
+    <div class="col-3 btn-header-element"><button type="button" class="btn btn-outline-light" style="width: 100%; border-color: var(--background-blue)">Orders</button></div>
+    <div class="col-3 btn-header-element"><button type="button" class="btn btn-outline-light" style="width: 100%; border-color: var(--background-blue)">About</button></div>
+  </div>
+  <div class="row col-4 justify-content-end align-items-center">
+    <div class="col-3 btn-header-element"><button type="button" class="btn btn-outline-light" style="width: 100%; border-color: var(--background-blue)">Login</button></div>
+  </div>
 </div>
