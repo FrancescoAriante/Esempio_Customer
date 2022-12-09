@@ -1,6 +1,6 @@
 # EsempioProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+Le chiamate API sono simulate utilizzando DummyJson. La documentazione si trova qui: https://github.com/Ovi/DummyJSON/blob/master/Readme.md
 
 ## Development server
 
